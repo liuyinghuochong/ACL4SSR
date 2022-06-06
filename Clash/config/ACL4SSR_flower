@@ -48,7 +48,7 @@ rename_node=南非@South Africa
 rename_node=Netease Proxy China@Netease
 
 add_emoji=true
-rule=Ukraine,🇺🇦
+rule=(Ukraine|乌克兰),🇺🇦
 
 
 ;设置规则标志位
