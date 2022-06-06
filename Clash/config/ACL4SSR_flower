@@ -1,0 +1,120 @@
+[custom]
+;acl4SSR规则
+
+append_proxy_type=false
+udp_flag=true
+tcp_fast_open_flag=false
+sort_flag=false
+skip_cert_verify_flag=true
+filter_deprecated_nodes=false
+
+rename_node= IEPL 中继@
+
+rename_node=实验性@ Exp
+rename_node=高级@ Pre
+rename_node=标准@ Std
+
+rename_node=香港@Hong Kong
+rename_node=日本@Japan
+rename_node=新加坡@Singapore
+rename_node=台湾@Taiwan
+rename_node=美国@United States
+
+rename_node=俄罗斯@Russia
+rename_node=乌克兰@Ukraine
+rename_node=意大利@Italy
+rename_node=匈牙利@Hungary
+rename_node=土耳其@Turkey
+rename_node=德国@Germany
+rename_node=英国@United Kingdom
+rename_node=荷兰@Netherlands
+rename_node=法国@France
+rename_node=加拿大@Canada
+rename_node=阿根廷@Argentina
+rename_node=巴西@Brazil
+rename_node=智利@Chile
+rename_node=澳大利亚@Australia
+rename_node=新西兰@New Zealand
+rename_node=韩国@Korea
+rename_node=印尼@Indonesia
+rename_node=泰国@Thailand
+rename_node=越南@Vietnam
+rename_node=印度@Indonesia
+rename_node=以色列@Israel
+rename_node=阿联酋@United Arab Emirates
+rename_node=菲律宾@Philippines
+rename_node=马来西亚@Malaysia
+rename_node=南非@South Africa
+rename_node=Netease Proxy China@Netease
+
+;设置规则标志位
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=🛑 Adblock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=🍃 Purification,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+ruleset=Ⓜ️ OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+ruleset=Ⓜ️ Microsoft,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+ruleset=🍎 Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=🎶 NetEaseMusic,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
+ruleset=🎮 Game,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+ruleset=🎮 Game,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
+ruleset=🎮 Game,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+ruleset=📹 Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=🎥 Disney+,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list
+ruleset=📺 Bahamut,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+ruleset=📺 Emby,https://raw.githubusercontent.com/yfluo914/ACL4SSR/master/Clash/Emby.list
+ruleset=🎶 Tiktok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
+ruleset=🎶 Spotify,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list
+ruleset=🌏 ChinaMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=🌍 GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+ruleset=🚀 Select,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+;ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+;ruleset=🎯 Direct,[]GEOIP,LAN
+ruleset=🎯 Direct,[]GEOIP,CN
+ruleset=🐟 Final,[]FINAL
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group=🚀 Select`select`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇲 United States`[]🚀 SelectALL`[]DIRECT
+custom_proxy_group=🚀 SelectALL`select`.*
+custom_proxy_group=📲 Telegram`select`[]🚀 Select`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]🚀 SelectALL`[]DIRECT
+custom_proxy_group=📹 Youtube`select`[]🚀 Select`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]🚀 SelectALL`[]DIRECT
+custom_proxy_group=🎥 Netflix`select`[]🚀 Select`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]🚀 SelectALL`[]DIRECT
+custom_proxy_group=🎥 Disney+`select`[]🚀 Select`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]🚀 SelectALL`[]DIRECT
+custom_proxy_group=📺 Bahamut`select`[]🇨🇳 Taiwan`[]🚀 Select`[]🚀 SelectALL`[]DIRECT
+custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]🇨🇳 Taiwan`[]🇭🇰 Hong Kong`[]🚀 Select`[]🚀 SelectALL
+custom_proxy_group=📺 Emby`select`.*
+custom_proxy_group=🎶 Tiktok`select`[]🇯🇵 Japan`[]🚀 Select`[]🚀 SelectALL`[]DIRECT
+custom_proxy_group=🎶 Spotify`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇺🇲 United States`[]🚀 Select`[]🚀 SelectALL
+custom_proxy_group=🌍 GlobalMedia`select`[]🚀 Select`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇲 United States`[]🚀 SelectALL`[]DIRECT
+custom_proxy_group=🌏 ChinaMedia`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🚀 SelectALL
+custom_proxy_group=Ⓜ️ OneDrive`select`[]DIRECT`[]🚀 Select`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🚀 SelectALL
+custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]🚀 Select`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🚀 SelectALL
+custom_proxy_group=🍎 Apple`select`[]DIRECT`[]🚀 Select`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🚀 SelectALL
+custom_proxy_group=🎮 Game`select`[]DIRECT`[]🚀 Select`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🚀 SelectALL
+custom_proxy_group=🎶 NetEaseMusic`select`[]DIRECT`[]🚀 Select`(网易|音乐|NetEase|Netease|Music)
+custom_proxy_group=🎯 Direct`select`[]DIRECT`[]🚀 Select
+custom_proxy_group=🛑 Adblock`select`[]REJECT`[]DIRECT
+custom_proxy_group=🍃 Purification`select`[]REJECT`[]DIRECT
+custom_proxy_group=🐟 Final`select`[]🚀 Select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇲 United States`[]🚀 SelectALL
+custom_proxy_group=🇭🇰 Hong Kong`select`(港|HK|Hong Kong)
+custom_proxy_group=🇯🇵 Japan`select`(日本|JP|Japan)
+custom_proxy_group=🇺🇲 United States`select`(美|US|United States)
+custom_proxy_group=🇸🇬 Singapore`select`(新加坡|狮城|SG|Singapore)
+custom_proxy_group=🇨🇳 Taiwan`select`(台|TW|Taiwan)
+custom_proxy_group=🐟 By FlyingFish 🐟`select`(Traffic|Expire)
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true
+
+;clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
