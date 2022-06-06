@@ -47,6 +47,10 @@ rename_node=马来西亚@Malaysia
 rename_node=南非@South Africa
 rename_node=Netease Proxy China@Netease
 
+add_emoji=true
+rule=Ukraine,🇺🇦
+
+
 ;设置规则标志位
 ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
