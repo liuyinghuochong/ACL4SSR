@@ -1,8 +1,6 @@
 # ACL4SSR规则
 
-由 @yfluo914 维护
-
-机场专用规则：
+机场专用规则由 @yfluo914 维护
 
 [FlowerCloud](https://flower.yt/aff.php?aff=677)：ACL4SSR_flower
 
