@@ -1,7 +1,5 @@
 # ACL4SSR规则
 
-部分机场专用规则由 [@yfluo914](https://github.com/yfluo914) 维护
-
 Specific rules for the proxy service providers are maintained by [@yfluo914](https://github.com/yfluo914).
 
 [FlowerCloud](https://flower.yt/aff.php?aff=677)：ACL4SSR/Clash/config/ACL4SSR_flower.ini
