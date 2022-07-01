@@ -1,4 +1,4 @@
-# ACL4SSR规则
+# ACL4SSR Rules
 
 Specific rules for the proxy service providers are maintained by [@yfluo914](https://github.com/yfluo914).
 
