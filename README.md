@@ -4,7 +4,7 @@
 
 [FlowerCloud](https://flower.yt/aff.php?aff=677)：ACL4SSR/Clash/config/ACL4SSR_flower.ini
 
-[YToo](https://oxycontin.top/aff.php?aff=900)：ACL4SSR/Clash/config/ACL4SSR_ytoo.ini 暂停维护
+[YToo](https://oxycontin.top/aff.php?aff=900)：ACL4SSR/Clash/config/ACL4SSR_ytoo.ini（暂停维护）
 
 [Texon](https://texon.io/portal/aff.php?aff=238)：ACL4SSR/Clash/config/ACL4SSR_texon.ini
 
