@@ -11,3 +11,5 @@ Specific rules for the proxy service providers are maintained by [@yfluo914](htt
 [WestData](https://fuqing.cz/aff.php?aff=522)：ACL4SSR/Clash/config/ACL4SSR_westdata.ini
 
 Emoji：ACL4SSR/Clash/config/emoji.list
+
+test git
