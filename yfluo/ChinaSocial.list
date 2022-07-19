@@ -7,3 +7,7 @@ DOMAIN-KEYWORD,weibo
 # 知乎
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-KEYWORD,zhihu
+IP-CIDR,103.41.167.0/24
+
+# 哔哩哔哩
+DOMAIN-SUFFIX,api.bilibili.com
