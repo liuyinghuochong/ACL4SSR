@@ -1,13 +1,14 @@
 # 微博
+DOMAIN,api.weibo.cn
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-KEYWORD,weibo
 
 # 知乎
+IP-CIDR,103.41.167.0/24
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-KEYWORD,zhihu
-IP-CIDR,103.41.167.0/24
 
 # 哔哩哔哩
-DOMAIN-SUFFIX,api.bilibili.com
+# DOMAIN-SUFFIX,api.bilibili.com
