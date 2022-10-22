@@ -2,10 +2,5 @@
 DOMAIN-SUFFIX,emby.flowercloud.yt
 DOMAIN-SUFFIX,emby.ytoo.li
 
-# MisakaF Emby
-DOMAIN-SUFFIX,emby.misakaf.xyz
-DOMAIN-SUFFIX,emby.misakaf.org
-
-# Midsummer Emby
-DOMAIN-SUFFIX,cf.mseic.com
-DOMAIN-SUFFIX,ha.mseic.com
+# Texon Emby
+DOMAIN-SUFFIX,emby.texon.one
