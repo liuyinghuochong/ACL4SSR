@@ -4,6 +4,8 @@ Specific rules for proxy service providers are maintained by [@yfluo914](https:/
 
 Common use: ACL4SSR/yfluo/ACL4SSR_CommonUse_Fallback.ini & ACL4SSR_CommonUse_Select.ini
 
+AmyTelecom: ACL4SSR/yfluo/ACL4SSR_AmyTelecom.ini
+
 [FlowerCloud](https://flower.yt/aff.php?aff=677): ACL4SSR/yfluo/ACL4SSR_FlowerCloud.ini
 
 [Texon](https://texon.io/portal/aff.php?aff=238): ACL4SSR/yfluo/ACL4SSR_Texon.ini
