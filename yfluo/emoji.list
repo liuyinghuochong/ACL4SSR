@@ -3,7 +3,7 @@
 (新加坡|Singapore|SG),🇸🇬
 (台湾|台灣|Taiwan|TW),🇨🇳
 (日本|Japan|JP),🇯🇵
-(美国|美國|United States|US),🇺🇸
+(美国|美國|United States|US|American),🇺🇸
 (俄罗斯|Russia),🇷🇺
 (乌克兰|Ukraine),🇺🇦
 (意大利|Italy),🇮🇹
@@ -19,10 +19,10 @@
 (智利|Chile),🇨🇱
 (澳大利亚|Australia),🇦🇺
 (新西兰|New Zealand),🇳🇿
-(韩国|Korea|KR),🇰🇷
+(韩国|Korea|KR|Seoul),🇰🇷
 (印尼|Indonesia),🇮🇩
 (泰国|Thailand),🇹🇭
-(越南|Vietnam),🇻🇳
+(越南|Vietnam|Ho Chi Minh),🇻🇳
 (印度|India),🇮🇳
 (以色列|Israel),🇮🇱
 (阿联酋|United Arab Emirates),🇦🇪
